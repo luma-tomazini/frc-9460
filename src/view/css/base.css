@@ -35,7 +35,16 @@ background-color: var(--cor04);
 .cards-competidores{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    flex-wrap: wrap;
 
-    margin-top: 1%;
+    margin-top: 5px;
+}
+
+.carousel-inner{
+    width: 60%;
+    height: 60%;
+    margin-left: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
